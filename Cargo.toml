@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+  "hello-rust",
+  "datatypes",
+  "ownership",
+  "structs",
+  "control-flow"
+]
