@@ -106,6 +106,13 @@ impl IpAddress {
     }
 }
 
+fn increment(x: Option<i32>) -> Option<i32> {
+    match x {
+        None => None,
+        Some(i) => Some(i + 1)
+    }
+}
+
 fn main() {
     //@! Structs
     let myrect = Rectangle {
@@ -168,4 +175,8 @@ fn main() {
     let that_number = some_number.unwrap();
     let sum_number = 8;
     println!("Sum between 8 and Some5: {}", that_number + sum_number);
+    //Option<T> matching
+    let some_number = increment(some_number);
+    increment(null_value);
+    println!("Option<i32> + 1: {}; null value + 1 panicks if unwrapped!", some_number.unwrap());
 }
