@@ -12,6 +12,7 @@ This repository is nothing special, just my little *projects* while studying the
     - [Control Flow](#control-flow)
     - [Ownership](#ownership)
     - [Structs](#structs)
+    - [My First Module](#my-first-module)
   - [License](#license)
 
 ## Projects
@@ -37,6 +38,11 @@ This projects shows the ownership paradigm of Rust.
 ### Structs
 
 This projects shows how Structs and Enums work in Rust.
+
+### My First Module
+
+An example of how to create a module in Rust, in this example I will create a utils module made up of two submodules: strutils and sysutils.
+This examples shows then, how to invoke the module from the main application.
 
 ## License
 
