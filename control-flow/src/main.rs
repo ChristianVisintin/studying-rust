@@ -14,6 +14,10 @@ fn main() {
     for element in array.iter() {
         println!("Value is {}", element);
     }
+    //@! If statement
+    if 5 > 3 {
+        println!("5 is bigger than 3");
+    }
     let mut i = 0;
     //@! Loop
     loop {
