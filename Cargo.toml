@@ -6,5 +6,6 @@ members = [
   "ownership",
   "structs",
   "control-flow",
-  "myfirstmodule"
+  "myfirstmodule",
+  "collections"
 ]

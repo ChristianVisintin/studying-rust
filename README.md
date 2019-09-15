@@ -6,6 +6,7 @@ This repository is nothing special, just my little *projects* while studying the
 
 - [Studying Rust](#studying-rust)
   - [Table Of Contents](#table-of-contents)
+  - [Premise](#premise)
   - [Projects](#projects)
     - [Hello Rust](#hello-rust)
     - [Datatypes](#datatypes)
@@ -13,7 +14,13 @@ This repository is nothing special, just my little *projects* while studying the
     - [Ownership](#ownership)
     - [Structs](#structs)
     - [My First Module](#my-first-module)
+    - [Collections](#collections)
   - [License](#license)
+
+## Premise
+
+These projects are only examples I made these examples while studying Rust and even if I covered most of the language main features, they should not be taken as your rust manual, but just only a short and quick reference.
+If you want to learn Rust, I suggest the official Book <https://github.com/rust-lang/book>
 
 ## Projects
 
@@ -43,6 +50,10 @@ This projects shows how Structs and Enums work in Rust.
 
 An example of how to create a module in Rust, in this example I will create a utils module made up of two submodules: strutils and sysutils.
 This examples shows then, how to invoke the module from the main application.
+
+### Collections
+
+An example which shows the most important common collection types. (Vector, String, Hash Maps)
 
 ## License
 
