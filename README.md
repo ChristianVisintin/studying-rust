@@ -15,6 +15,7 @@ This repository is nothing special, just my little *projects* while studying the
     - [Structs](#structs)
     - [My First Module](#my-first-module)
     - [Collections](#collections)
+    - [Errors](#errors)
   - [License](#license)
 
 ## Premise
@@ -54,6 +55,10 @@ This examples shows then, how to invoke the module from the main application.
 ### Collections
 
 An example which shows the most important common collection types. (Vector, String, Hash Maps)
+
+### Errors
+
+An example which shows how to handle errors in Rust.
 
 ## License
 
