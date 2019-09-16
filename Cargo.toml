@@ -8,5 +8,6 @@ members = [
   "control-flow",
   "myfirstmodule",
   "collections",
-  "errors"
+  "errors",
+  "generics"
 ]

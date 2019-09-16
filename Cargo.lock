@@ -17,6 +17,10 @@ name = "errors"
 version = "0.1.0"
 
 [[package]]
+name = "generics"
+version = "0.1.0"
+
+[[package]]
 name = "hello-rust"
 version = "0.1.0"
 
