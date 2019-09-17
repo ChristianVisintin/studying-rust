@@ -16,6 +16,7 @@ This repository is nothing special, just my little *projects* while studying the
     - [My First Module](#my-first-module)
     - [Collections](#collections)
     - [Errors](#errors)
+    - [Generics](#generics)
   - [License](#license)
 
 ## Premise
@@ -59,6 +60,10 @@ An example which shows the most important common collection types. (Vector, Stri
 ### Errors
 
 An example which shows how to handle errors in Rust.
+
+### Generics
+
+An example which shows an overview of generics, traits and lifetime
 
 ## License
 
