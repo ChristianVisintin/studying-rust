@@ -116,10 +116,9 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str { //Lifetime annotation &'a
     }
 }
 
-//Another example, shows how to handle a result which doesn't live long enough
-fn ret_string<'a>() -> &'a str {
-    let result = String::from("A string");
-    result.as_str()
+//Also structs can hold references, but they need a lifetime annotation
+struct ExceptionHolder<'a> {
+    ptr: &'a str
 }
 
 fn main() {
@@ -168,6 +167,15 @@ fn main() {
     let result = longest(str1.as_str(), str2);
     println!("The longest string betwen {} and {} is {}", str1, str2, result);
 
-    let result = ret_string();
-    println!("Returned string {}", result);
+    let string = String::from("A.B.C");
+    let first_token = string.split('.').next().expect("Could not find '.'");
+    let ex = ExceptionHolder {
+        ptr: first_token
+    };
+    println!("ExceptionHolder.ptr {}", ex.ptr);
+
+    //It's possible to specify a static lifetime, which indicates the reference will
+    //live for the entire duration of the execution
+    let s: &'static str = "I have a static lifetime";
+    println!("{}", s);
 }
