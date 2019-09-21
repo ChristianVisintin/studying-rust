@@ -17,6 +17,7 @@ This repository is nothing special, just my little *projects* while studying the
     - [Collections](#collections)
     - [Errors](#errors)
     - [Generics](#generics)
+    - [Tests](#tests)
   - [License](#license)
 
 ## Premise
@@ -64,6 +65,10 @@ An example which shows how to handle errors in Rust.
 ### Generics
 
 An example which shows an overview of generics, traits and lifetime
+
+### Tests
+
+An example which illustrates how to write tests in Rust.
 
 ## License
 

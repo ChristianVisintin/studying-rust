@@ -9,5 +9,6 @@ members = [
   "myfirstmodule",
   "collections",
   "errors",
-  "generics"
+  "generics",
+  "tests"
 ]
