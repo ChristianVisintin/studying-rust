@@ -18,6 +18,7 @@ This repository is nothing special, just my little *projects* while studying the
     - [Errors](#errors)
     - [Generics](#generics)
     - [Tests](#tests)
+    - [Minigrep](#minigrep)
   - [License](#license)
 
 ## Premise
@@ -69,6 +70,10 @@ An example which shows an overview of generics, traits and lifetime
 ### Tests
 
 An example which illustrates how to write tests in Rust.
+
+### Minigrep
+
+The same IOProject you can find at chapter 12 of the rust programming language book, but made following my ideas.
 
 ## License
 

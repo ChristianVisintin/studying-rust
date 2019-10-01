@@ -10,5 +10,6 @@ members = [
   "collections",
   "errors",
   "generics",
-  "tests"
+  "tests",
+  "minigrep"
 ]
