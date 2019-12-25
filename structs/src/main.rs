@@ -20,6 +20,9 @@ impl Rectangle {
     fn calc_perimeter(&self) -> u32 {
         (self.width * 2) + (self.height * 2)
     }
+    fn set_width(&mut self, width: u32) {
+        self.width = width
+    }
 }
 //To call a Rectangle method just use your_rectangle.method_name();
 
@@ -115,7 +118,7 @@ fn increment(x: Option<i32>) -> Option<i32> {
 
 fn main() {
     //@! Structs
-    let myrect = Rectangle {
+    let mut myrect = Rectangle {
         width: 48,
         height: 32,
     };
@@ -125,6 +128,9 @@ fn main() {
         myrect.calc_area(),
         myrect.calc_perimeter()
     );
+    //Set width
+    myrect.set_width(64);
+    println!("New rect width: {}", myrect.width);
     //@! Enums
     let home = IpAddr {
         version: IpAddrVersion::V4,
