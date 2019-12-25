@@ -20,6 +20,7 @@ This repository is nothing special, just my little *projects* while studying the
     - [Tests](#tests)
     - [Minigrep](#minigrep)
     - [FunctionalFeatures](#functionalfeatures)
+    - [MultiThreading](#multithreading)
   - [License](#license)
 
 ## Premise
@@ -79,6 +80,10 @@ The same IOProject you can find at chapter 12 of the rust programming language b
 ### FunctionalFeatures
 
 A program which shows the function features (closures and iterators) of the Rust language.
+
+### MultiThreading
+
+Introduction to multi threading features in Rust. Does not include Mutex, because everybody knows how it works.
 
 ## License
 

@@ -12,5 +12,6 @@ members = [
   "generics",
   "tests",
   "minigrep",
-  "functionalfeatures"
+  "functionalfeatures",
+  "multi-threading"
 ]
