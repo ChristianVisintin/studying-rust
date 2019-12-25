@@ -72,6 +72,17 @@ fn shoes_in_my_size(shoes: Vec<Shoe>, shoe_size: u32) -> Vec<Shoe> {
     shoes.into_iter().filter(|s| s.size == shoe_size).collect()
 }
 
+struct NumberWorker {
+    number: i32,
+    worker_ptr: fn(&NumberWorker) -> i32
+}
+
+impl NumberWorker {
+    fn worker(&self) -> i32 {
+        return (self.worker_ptr)(self)
+    }
+}
+
 fn main() {
     //@! Closures
     let simulated_user_specified_value = 30;
@@ -114,4 +125,14 @@ fn main() {
     for shoe_for_me in in_my_size {
         println!("A shoe for me: {} (Size: {})!", shoe_for_me.style, shoe_for_me.size);
     }
+
+    //Know that we've learned about closures, we can introduce function pointers
+    //@!Function pointers
+    //Let's use the struct NumWorker
+    //We can now create a Number Worker
+    let my_first_number_worker = NumberWorker {
+        number: 64,
+        worker_ptr: |my_first_number_worker| { return my_first_number_worker.number * 2 }
+    };
+    println!("My worked value: {}", my_first_number_worker.worker());
 }
